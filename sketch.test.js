@@ -1,10 +1,11 @@
 //const sum = require('./sketch');
 //import sketch from './sketch'
-import {sum,sub,mult,div} from './sketch';
+//import {sum,sub,mult,div} from './sketch';
+var methods = require('./sketch.js');
 
 
 test('adds two values',()=>{
-	expect(sum(1,2)).toBe(3);
+	expect(methods.sum(1,2)).toBe(3);
 })
 
 test('subtracts two values neg',()=>{
