@@ -1,5 +1,6 @@
 //const sum = require('./sketch');
-import sketch from './sketch'
+//import sketch from './sketch'
+import {sum,sub,mult,div} from './sketch';
 
 
 test('adds two values',()=>{
