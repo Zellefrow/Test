@@ -17,7 +17,7 @@ test('subtracts two values pos',()=>{
 })
 
 test ('multiply two values',()=>{
-	expect(methods.sub(3,2)).toBe(6);
+	expect(methods.mult(3,2)).toBe(6);
 })
 
 
